@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="icon" type="Images/png" href="Images/gamerrrr logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Images/gamerrrr logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://youtu.be/N-sVzoZn3GQ" target="_blank"><b>Game Controllers</b></a></li>
+                    <li><a href="https://youtu.be/4vYUdOxZFHQ" target="_blank"><b>VR Accessories</b></a></li>
+                    <li><a href="https://youtu.be/IGXlwYp3ogY" target="_blank"><b>Media Remotes</b></a></li>
+                    <li><a href="https://youtu.be/SkWElnNxSMs" target="_blank"><b>Others</b></a></li>
+                </ul>
+            </nav>
+            <img src="Images/menu-icon-19353 (1).png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2<br>Dualshock 4</h2>
+                <h3>Wireless Controller for Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$27.32</h4>
+                <button type="button">Buy Now <img src="Images/icons8-right-arrow-50.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="Images/console 2.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="Images/icons8-add-50.png">
+                    <p>
+                        <small>Add to Cart </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+
+            <img src="Images/facebook.png">
+
+            <img src="Images/instagram 1.png">
+
+            <img src="Images/twitter.png">
+
+        </div>
+    </div>
+
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px")
+
+            {
+                menuList.style.maxHeight = "130px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>
